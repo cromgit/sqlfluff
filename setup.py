@@ -86,7 +86,8 @@ setup(
         # Used for performance profiling
         'bench-it',
         # Used for .sqlfluffignore
-        "pathspec"
+        "pathspec",
+        "jinjasql>=0.1.7,<0.2",
     ],
     extras_require={
         # eg:
